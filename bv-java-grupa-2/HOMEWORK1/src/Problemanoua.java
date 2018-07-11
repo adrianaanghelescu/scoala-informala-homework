@@ -11,9 +11,9 @@ public class Problemanoua {
 		System.out.print("Introduceti cel de-al doilea numar: ");
 		int b = s.nextInt();
 		if (a > b){
-			 int Aux = a;
+			 int aux = a;
 			 a = b;
-			 b = Aux;
+			 b = aux;
 		}
 		int i = a;
 		for (i=a;i<=b;i++){

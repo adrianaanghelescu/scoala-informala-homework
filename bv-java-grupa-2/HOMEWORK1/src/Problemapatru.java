@@ -7,12 +7,12 @@ public class Problemapatru {
 	Scanner s = new Scanner(System.in);
 	System.out.print("Introduceti numarul n: ");
 	int n = s.nextInt();
-	int Aux = n, Pedos = 0;
+	int aux = n, pedos = 0;
 	while (n != 0) {
-		Pedos = Pedos * 10 + n % 10;
+		pedos = pedos * 10 + n % 10;
 		n = n / 10;
 	}
-	if ( Aux==Pedos) {
+	if ( aux==pedos) {
 		System.out.println("Numarul introdus este PALINDROM!");
 	}	
 	  else {

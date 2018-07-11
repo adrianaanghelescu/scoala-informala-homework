@@ -9,14 +9,14 @@ public class Problematrei {
 		Scanner s = new Scanner(System.in);
 		System.out.print("Introduceti numarul n: ");
 		int n = s.nextInt();
-		int Maxim = 0, Digit;
+		int maxim = 0, digit;
 		while (n != 0) {
-			Digit = n%10;
-			if (Digit > Maxim){
-				Maxim = Digit;
+			digit = n%10;
+			if (digit > maxim){
+				maxim = digit;
 			}
-		n =(n-Digit)/10;
+		n =(n-digit)/10;
 		}
-	System.out.println("Cifra maxima din numarul dat este:"+Maxim);
+	System.out.println("Cifra maxima din numarul dat este:"+maxim);
 	}
 }

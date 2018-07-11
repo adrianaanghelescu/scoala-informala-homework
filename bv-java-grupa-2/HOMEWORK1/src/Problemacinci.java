@@ -13,14 +13,14 @@ public class Problemacinci {
 			int p = 1;
 			for (p=1;p<=n;p++) {
 				int i = 2; 
-				boolean Prim = true;
+				boolean prim = true;
 				for (i=2;i<p;i++) {
 					if (p%i==0) {
-						Prim = false;
+						prim = false;
 						break;
 					};
 				};
-				if (Prim==true) {
+				if (prim==true) {
 					System.out.print(p+"  ");
 				};
 			};
